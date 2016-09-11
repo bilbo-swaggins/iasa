@@ -1,8 +1,40 @@
 .navbar-toggler {
   float: right;
 }
+
 .navbar-nav .nav-item {
   padding: 0 20px;
+
+  @media screen and (max-width: 992px){
+    padding: 0 10px;
+  }
+}
+
+.main-nav {
+
+
+  @media screen and (max-width: 768px){
+    text-align: right;
+    padding-top: 60px;
+    min-width: 100%;
+  }
+}
+
+
+
+
+
+// Footer
+
+
+.iasa-footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+
+  @media screen and (max-width: 768px){
+    text-align: center;
+  }
 }
 
 
