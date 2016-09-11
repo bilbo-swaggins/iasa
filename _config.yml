@@ -11,7 +11,7 @@ permalink:        pretty
 # Server switch to docs for bootstrap stuff
 source:           iasa
 destination:      iasa-final
-host:             0.0.0.0
+host:             localhost
 port:             9001
 baseurl:          ""
 encoding:         UTF-8
