@@ -10,13 +10,12 @@
   }
 }
 
-.main-nav {
-
+.navbar-nav {
 
   @media screen and (max-width: 768px){
     text-align: right;
-    padding-top: 60px;
-    min-width: 100%;
+    clear: both;
+
   }
 }
 

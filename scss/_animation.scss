@@ -19,7 +19,11 @@
 
 .collapsing {
   position: relative;
+  padding-left: 0;
+  padding-right: 0;
   height: 0;
+  width: 100%;
+  float: none;
   overflow: hidden;
   transition-timing-function: ease;
   transition-duration: .35s;
