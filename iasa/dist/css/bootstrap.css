@@ -6601,4 +6601,27 @@ a.text-danger:focus, a.text-danger:hover {
   }
 }
 
+.title {
+  padding: 40px 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title h2 {
+  color: white;
+  font-family: "proxima-nova", sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.title.title-commercial {
+  background-image: url("../../../assets/img/iasa-7.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../assets/img/iasa-7.jpg ");
+  background-position: 50% 50%;
+}
+
+.bg-inverse p, .bg-inverse h2 {
+  color: white;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */

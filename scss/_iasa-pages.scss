@@ -1,0 +1,27 @@
+.title {
+  padding: 40px 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h2 {
+    color: white;
+    font-family: $font-family-base;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+
+
+
+  &.title-commercial {
+    background-image: url('../../../assets/img/iasa-7.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../../../assets/img/iasa-7.jpg ");
+    background-position: 50% 50%;
+  }
+}
+
+.bg-inverse  {
+
+  p, h2 {
+    color: white;
+  }
+}
