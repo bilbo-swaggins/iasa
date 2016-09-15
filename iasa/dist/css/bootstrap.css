@@ -6601,6 +6601,10 @@ a.text-danger:focus, a.text-danger:hover {
   }
 }
 
+section {
+  margin: 30px 0;
+}
+
 .title {
   padding: 40px 30px;
   background-size: cover;
@@ -6620,8 +6624,33 @@ a.text-danger:focus, a.text-danger:hover {
   background-position: 50% 50%;
 }
 
+.title.title-military {
+  background-image: url("../../../assets/img/iasa-6.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../assets/img/iasa-6.jpg ");
+  background-position: 50% 50%;
+}
+
 .bg-inverse p, .bg-inverse h2 {
   color: white;
+}
+
+.footer-cta {
+  background-image: url("../../../assets/img/iasa-1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../../assets/img/iasa-1.jpg ");
+  background-position: 50% 50%;
+  background-size: cover;
+  color: white;
+}
+
+.cert-tag {
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 544px) {
+  #state {
+    margin-top: 16px;
+  }
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
