@@ -533,6 +533,8 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 1.75rem;
+  font-weight: 900;
+  padding-bottom: 1em;
 }
 
 h4, .h4 {
@@ -6601,10 +6603,6 @@ a.text-danger:focus, a.text-danger:hover {
   }
 }
 
-section {
-  margin: 30px 0;
-}
-
 .title {
   padding: 40px 30px;
   background-size: cover;
@@ -6630,7 +6628,7 @@ section {
   background-position: 50% 50%;
 }
 
-.bg-inverse p, .bg-inverse h2 {
+.bg-inverse p, .bg-inverse h3 {
   color: white;
 }
 
@@ -6651,6 +6649,28 @@ section {
   #state {
     margin-top: 16px;
   }
+}
+
+.military-support {
+  background-image: url("../../../assets/img/iasa-12.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../assets/img/iasa-12.jpg ");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.military-support h3, .military-support p {
+  color: white;
+}
+
+.content-bg.commercial {
+  background-image: url("../../../assets/img/iasa-4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../assets/img/iasa-4.jpg ");
+  background-position: 50% 10%;
+  background-size: cover;
+}
+
+.content-bg p {
+  color: white;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */

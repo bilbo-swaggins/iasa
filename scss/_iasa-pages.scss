@@ -1,6 +1,6 @@
-section {
-  margin: 30px 0;
-}
+// section {
+//   margin: 30px 0;
+// }
 
 .title {
   padding: 40px 30px;
@@ -30,7 +30,7 @@ section {
 
 .bg-inverse  {
 
-  p, h2 {
+  p, h3 {
     color: white;
   }
 }
@@ -90,5 +90,58 @@ section {
 #state {
   @media screen and (max-width: 544px){
     margin-top: 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
+ // Military Page
+
+.military-support{
+  background-image: url('../../../assets/img/iasa-12.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../../../assets/img/iasa-12.jpg ");
+  background-position: 50% 50%;
+  background-size: cover;
+
+  h3,p {
+    color: white;
+  }
+
+}
+
+
+
+
+
+
+
+
+// Commercial page
+
+
+
+
+
+
+
+
+
+
+.content-bg {
+
+  &.commercial {
+    background-image: url('../../../assets/img/iasa-4.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../../../assets/img/iasa-4.jpg ");
+    background-position: 50% 10%;
+    background-size: cover;
+  }
+  p {
+    color: white;
   }
 }
