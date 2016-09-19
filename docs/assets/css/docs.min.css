@@ -223,7 +223,7 @@
 }
 
 .bd-featurette-img:hover {
-  color: orange;
+  color: #1E88E5;
   text-decoration: none;
 }
 
@@ -541,7 +541,7 @@
 
 .bd-toc-link:hover,
 .bd-toc-link:focus {
-  color: orange;
+  color: #1E88E5;
   text-decoration: none;
 }
 
@@ -576,7 +576,7 @@
 
 .bd-sidebar .nav > li > a:hover,
 .bd-sidebar .nav > li > a:focus {
-  color: orange;
+  color: #1E88E5;
   text-decoration: none;
   background-color: transparent;
 }
@@ -603,7 +603,7 @@
 }
 
 .bd-footer a:hover {
-  color: orange;
+  color: #1E88E5;
 }
 
 .bd-footer p {

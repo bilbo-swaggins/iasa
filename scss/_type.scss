@@ -17,6 +17,10 @@ h3, .h3 {
   font-size: $font-size-h3;
   font-weight: 900;
   padding-bottom: 1em;
+
+  @media screen and (max-width: 544px){
+    margin-top:15px;
+  }
 }
 h4, .h4 { font-size: $font-size-h4; }
 h5, .h5 { font-size: $font-size-h5; }
