@@ -16,7 +16,7 @@ h2, .h2 { font-size: $font-size-h2; }
 h3, .h3 {
   font-size: $font-size-h3;
   font-weight: 900;
-  padding-bottom: 1em;
+  text-transform: uppercase;
 
   @media screen and (max-width: 544px){
     margin-top:15px;

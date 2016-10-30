@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Contact IASA Group for your Commercial and Military Aircraft Parts Supply Needs">
+<meta name="author" content="Eric Willis">
+
+<title>Contact</title>
+
+<!-- Fonts -->
+<script src="https://use.typekit.net/hjr6ssi.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<link href="/dist/css/bootstrap.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico">
+
+<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-146052-10', 'getbootstrap.com');
+  ga('send', 'pageview');
+</script>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light bg-faded">
+  <div class="container">
+    <a class="navbar-brand" href="/"><img alt="Brand" src="/assets/img/logo.png"></a>
+
+    <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+      &#9776;
+    </button>
+    <div class="collapse navbar-toggleable-sm" id="exCollapsingNavbar2">
+      <ul class="nav navbar-nav pull-md-right main-nav">
+        <li class="nav-item ">
+          <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="/commercial">Commercial</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="/military">Military</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="/rfq">RFQ Form</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-primary" href="/contact" role="button">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</nav>
+
+
+  <div class="title title-contact">
+    <div class="container">
+      <h2>Contact</h2>
+    </div>
+  </div>
+  <section class="iasa-form">
+    <div class="container p-t-3 p-b-3">
+      <div class="row contact-wrap">
+        <div class="col-md-8 col-xl-8">
+                  <blockquote class="blockquote hidden-xs-up">
+          <div class="row">
+            <div class="col-xs-12">
+              <h4>Oh No!</h4>
+              <p>It Looks like you may have hit some turbulance. Please verify that all information in the form is correct and submit again. Thanks</p>
+            </div>
+          </div>
+        </blockquote>
+        <form id="main-contact-form" class="contact-form" action="https://formspree.io/quotes@iasagrp.com" method="POST" data-parsley-validate="">
+          <div class="form-group row">
+            <label for="name" class="col-sm-3 col-form-label">Name</label>
+            <div class="col-sm-9">
+              <input class="form-control" type="text" placeholder="name" id="name" required="">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="phone" class="col-sm-3 col-form-label">Phone Number</label>
+            <div class="col-sm-9">
+              <input class="form-control" name="phone" type="tel" id="phone" placeholder="Phone Number" required="" data-parsley-type="digits" data-parsley-minlength="10" data-parsley-error-message="Required - Please Enter a valid phone number">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="email" class="col-sm-3 col-form-label">Email</label>
+            <div class="col-sm-9">
+              <input class="form-control" type="email" name="email" id="email" placeholder="Email" required="" data-parsley-trigger="change" data-parsley-error-message="Required - Please Enter a Valid Email">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="message" class="col-sm-3 col-form-label">Message</label>
+            <div class="col-sm-9">
+              <textarea class="form-control" id="message" rows="4" placeholder="Please include your message" required="" data-parsley-trigger="change" data-parsley-minlength="20" data-parsley-maxlength="100" data-parsley-minlength-message="20 Character Minimum 1000 Character Maximum"
+                  data-parsley-validation-threshold="10"></textarea>
+            </div>
+          </div>
+          <div class="hidden-xs-up">
+              <input class="form-control" type="text" name="thank-you" data-parsley-validate-if-empty="">
+          </div>
+          <input type="hidden" name="_next" value="http://www.iasagrp.com/" />
+          <button type="submit" class="btn btn-primary w-100">Submit</button>
+        </form>
+        <script type="text/javascript">
+          $(function() {
+            $('#main-contact-form').parsley().on('field:validated', function() {
+              var ok = $('.parsley-error').length === 0;
+              $('.blockquote').toggleClass('hidden-xs-up', ok);
+            })
+          });
+        </script>
+
+        </div>
+        <div class="col-md-4 col-xl-4 iasa-contact-info">
+          <h3>IASA Group LLC</h3>
+          <p>1905 Production Road <br> Fort Wayne <br> Indiana, 46808 USA
+          </p>
+          <p><strong>Tel:</strong> <a href="tel:260-484-1322">260-484-1322</a></p>
+          <p><strong>Fax:</strong> 260-572-4700</p>
+          <p><strong>Cage Code</strong></p>
+          <h5>7BM02</h5>
+          <p><strong>DUNS #:</strong></p>
+          <h5>96-754-5849</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="iasa-footer">
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-4">
+        <h3><a href="tel:260-484-1322">260-484-1322</a></h3>
+        <h4>Phone</h4>
+
+      </div>
+
+      <div class="col-md-4">
+        <h3>IASA Group LLC</h3>
+        <h4>1905 Production Road<br>
+          Fort Wayne, Indiana 46808
+        </h4>
+      </div>
+      <div class="col-md-4">
+
+        <h3>260-572-4700</h3>
+        <h4>Fax</h4>
+
+      </div>
+      <div class="col-sm-6 offset-sm-3">
+        <p>IASA complies with all US Export Regulation, IASA is registered and approved by Commerce and U.S. State Departments for Export of all your military aircraft needs.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/dist/js/bootstrap.js"></script>
+<script src="/dist/js/parsley.js"></script>
+
+</body>
+
+</html>
